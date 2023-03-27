@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DccPushAlarmTester", "DccPushAlarmTester\DccPushAlarmTester.csproj", "{D0CFDE7E-2A06-45D1-A7FC-99BC859BA6FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40E6378C-D546-446D-8FE4-6F8EE45496C8} = {40E6378C-D546-446D-8FE4-6F8EE45496C8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMI.Common", "..\DCC_Common\DMI.Common\DMI.Common.csproj", "{40E6378C-D546-446D-8FE4-6F8EE45496C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0CFDE7E-2A06-45D1-A7FC-99BC859BA6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CFDE7E-2A06-45D1-A7FC-99BC859BA6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CFDE7E-2A06-45D1-A7FC-99BC859BA6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CFDE7E-2A06-45D1-A7FC-99BC859BA6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E6378C-D546-446D-8FE4-6F8EE45496C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E6378C-D546-446D-8FE4-6F8EE45496C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E6378C-D546-446D-8FE4-6F8EE45496C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E6378C-D546-446D-8FE4-6F8EE45496C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABFF2DCB-EDB0-4210-81E1-155B736D4559}
+	EndGlobalSection
+EndGlobal
